@@ -56,7 +56,7 @@ lib/booking.ts            Quote and reference number
 public/images/            Photographs used by the pages
 ```
 
-`CODE_WALKTHROUGH.md` explains each file in plain language and includes likely interview questions. `DEVELOPMENT_SUMMARY.md` covers the approach and what a full product would add.
+`DEVELOPMENT_SUMMARY.md` covers the approach and what I would add for a full commercial website.
 
 ## Features checklist
 
@@ -137,4 +137,4 @@ Commons file pages are linked from `lib/data/properties.ts`. CC BY and CC BY-SA 
 
 ## AI usage
 
-AI coding tools in Cursor were used for assistance while building this prototype: scaffolding the Next.js app, drafting components, and checking the booking validation. I have read the code in this repository, I understand how the pages, filters, and validation fit together, and I can explain those decisions in a technical interview. The sample copy, the information architecture, and the choice to keep this front-end only were reviewed before submission.
+AI-assisted development tools were used for parts of scaffolding and drafting. I reviewed, edited, and can explain the code and design decisions in a technical interview.

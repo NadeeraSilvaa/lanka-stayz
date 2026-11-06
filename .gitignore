@@ -40,7 +40,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# local docs / agent notes
+# private notes (not for submission)
 AGENTS.md
 CODE_WALKTHROUGH.md
-DEVELOPMENT_SUMMARY.md
