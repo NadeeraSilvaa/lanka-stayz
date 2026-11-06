@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7f8f6;
+  --foreground: #14201b;
+  --paper: #ffffff;
+  --forest: #0f2f26;
+  --palm: #1a6b52;
+  --palm-deep: #0c4033;
+  --foam: #e8f4ef;
+  --sand: #eef1ee;
+  --lagoon: #0e7c66;
+  --lagoon-deep: #0a5c4c;
+  --gold: #c4a35a;
+  --mist: #5a6b63;
+  --line: #dce3df;
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-paper: var(--paper);
+  --color-forest: var(--forest);
+  --color-palm: var(--palm);
+  --color-palm-deep: var(--palm-deep);
+  --color-foam: var(--foam);
+  --color-sand: var(--sand);
+  --color-lagoon: var(--lagoon);
+  --color-lagoon-deep: var(--lagoon-deep);
+  --color-gold: var(--gold);
+  --color-mist: var(--mist);
+  --color-line: var(--line);
+  --font-sans: var(--font-outfit), "Segoe UI", sans-serif;
+  --font-display: var(--font-fraunces), Georgia, serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+::selection {
+  background: #cfe8dc;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .motion-fade-up {
+    animation: fade-up 0.7s ease-out both;
+  }
+
+  .motion-fade-up-delay {
+    animation: fade-up 0.7s ease-out 0.12s both;
+  }
+
+  .motion-fade-up-delay-2 {
+    animation: fade-up 0.7s ease-out 0.22s both;
+  }
+
+  .motion-fade-in {
+    animation: fade-in 1s ease-out both;
+  }
+}
