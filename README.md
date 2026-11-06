@@ -2,13 +2,11 @@
 
 Lanka Stayz is a front-end prototype of an accommodation booking site for Sri Lanka. Guests can search sample stays in Colombo, Kandy, Ella, Galle, Mirissa, and Nuwara Eliya, open a property, check a nightly total in Sri Lankan rupees, and submit a booking request. Nothing is stored and no payment is taken.
 
-This repository is a technical assessment prototype for a Full-Stack Web Developer role. It is ready to deploy on Vercel as a standard Next.js app. It has not been deployed yet.
+This repository is a technical assessment prototype for a Full-Stack Web Developer role.
 
 ## Live demo
 
-Not deployed. After this repo is connected to Vercel, replace the line below with the real URL:
-
-https://your-project-name.vercel.app
+https://lanka-stayz-source.vercel.app
 
 ## Run it locally
 
